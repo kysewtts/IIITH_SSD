@@ -4,5 +4,4 @@ select e.fname, e.minit, e.lname, e.ssn, temp1.dnumber, temp1.empCount from empl
 	) as temp 
 	where d.mgr_ssn = temp. super_ssn
 ) 
-as temp1 where temp1.super_ssn = e.ssn;
-
+as temp1 where temp1.super_ssn = e.ssn order by temp1.empCount;
