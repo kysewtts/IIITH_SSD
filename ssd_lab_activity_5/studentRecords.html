@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container studentRecords">
+      <div class="loginForm">
+        <h2>Students Records</h2>
+        <input type="text" name="RollNo" placeholder="Roll no" id="roll" />
+        <input type="text" name="Name" placeholder="Name" id="name" />
+        <button onclick="addDetail()" id="addBtn">Add New</button>
+        <br /><br />
+        <table id="studentTable">
+          <thead id="tableHead">
+            <tr>
+              <th>RollNo</th>
+              <th>Name</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <br />
+        <button onclick="deleteDetail()" id="delBtn">Delete Last Entry</button>
+      </div>
+    </div>
+  </body>
+</html>
