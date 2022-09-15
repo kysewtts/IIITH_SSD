@@ -1,0 +1,33 @@
+.teamMembers {
+  display: flex;
+}
+
+.teamForm {
+  padding: 20px;
+}
+
+.teamMembers p {
+  background-color: aliceblue;
+}
+
+.dropTargetDiv {
+  padding: 10px;
+  margin: 20px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: pink;
+}
+
+input {
+  margin-left: 100px;
+}
+
+.heading {
+  text-align: center;
+  color: blue;
+}
+
+.dark-mode {
+  background-color: black;
+  color: blue;
+}
