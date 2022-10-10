@@ -1,0 +1,6 @@
+ssd_lab_activity_8/client/node_modules
+ssd_lab_activity_8/client/package-lock.json
+
+ssd_lab_activity_8/server/node_modules
+ssd_lab_activity_8/server/package-lock.json
+ssd_lab_activity_8/server/.env
